@@ -18,4 +18,3 @@ RUN mv /usr/share/cowsay/cows/default.cow /usr/share/cowsay/cows/cow.cow && \
 COPY entrypoint.sh /
 ENTRYPOINT [ "/entrypoint.sh" ]
 COPY entrypoint.sh /
-COPY entrypoint.sh /
